@@ -13,7 +13,7 @@ import {Interview} from "../models/interview";
 
 export class PostulantApprovedApiService {
 
-  basePath = 'https://jobag.herokuapp.com/api/postulants';
+  basePath = 'https://jo-bag.herokuapp.com/api/postulants';
 
   constructor(private http: HttpClient) { }
 

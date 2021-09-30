@@ -8,7 +8,7 @@ import {catchError, retry} from "rxjs/operators";
 
 export class PostulantsApiService {
   //Postulants Endpoint
-  basePath = 'http:/localhost:3000/api/postulants';
+  basePath = 'https://jo-bag.herokuapp.com//api/postulants';
   //HTTP Default Options
 
   httpOptions = {headers: new HttpHeaders({'Content-Type': 'aplication/json'})}

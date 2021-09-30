@@ -9,7 +9,7 @@ import {Prueba} from "../models/prueba";
 })
 
 export class PruebaApiService {
-  basePath = 'http://localhost:3000/api/prueba';
+  basePath = 'https://jo-bag.herokuapp.com/api/prueba';
   httpOptions = { headers: new HttpHeaders({ 'Content-Type': 'application/json'})};
   constructor(private http: HttpClient) { }
   handleError(error: HttpErrorResponse): Observable<never> {
